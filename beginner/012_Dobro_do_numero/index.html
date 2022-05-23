@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobro do Numero Escolhido</title>
+   
+    <section>
+        <style>
+            #congratulations_gif {
+                visibility: hidden;
+                border-radius: 5px;
+                position: relative;
+                left: 30px;
+
+            }
+            #congratulations_txt {
+                position: relative;
+                left: 30px;
+                font-size: 30px;
+            }
+        </style>
+    </section>
+</head>
+<body>
+    <h1>Dobra Numeros</h1>
+    <p>Digite um numero entre 1 e 50 abaixo:</p>
+    <input type="number" placeholder="Valores entre 1 e 50" id="escolhido">
+    <input type="submit" id="submit" value="RUN">
+    <p id="resultado_do_dobro"></p> <br>
+    <h3 id="congratulations_txt"></h3>
+    <img src="congratulations.gif" alt="" id="congratulations_gif">
+
+    <script src="index.js"></script>
+    <script src="index2.js"></script>
+</body>
+</html>
