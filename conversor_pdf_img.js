@@ -1,4 +1,5 @@
 //https://github.com/ol-th/pdf-img-convert.js
+//testar isso: https://www.npmjs.com/package/pdf-export-images
 var pdf2img = require('pdf-img-convert');
 
 var outputImages1 = pdf2img.convert('/Users/maximize/Documents/Adrian/VS_CODE/conversor_pdf_html/assets/project_proposal.pdf');
