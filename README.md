@@ -4,4 +4,4 @@
 //  Bibliotecas usadas: pdf-img-convert / jsdom
 
 //  npm install pdf-img-convert
-//  npm install jsdom
+npm install jsdom
